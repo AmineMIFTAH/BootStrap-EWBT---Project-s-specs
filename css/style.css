@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+
+
+body {
+    background-color: rgb(245, 245, 247);
+
+}
+
+.navbar {
+    border-radius: 0;
+    border-bottom: 5px solid maroon;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: maroon;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav>li {
+    padding-left: 15px;
+
+}
+
+
+.home {
+    margin-top: -20px;
+    background: url('../img/Home.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.Section_Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 520px;
+}
+
+.about {
+    background: url('../img/about.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.myabout:first-child {
+    margin-bottom: 100px;
+}
+
+.myabout h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: maroon;
+}
+
+.myabout p {
+    font-size: 24px;
+
+}
+
+
+
+
+.row form {
+    margin-bottom: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+form button {
+    margin-top: 10px;
+    color: white;
+    background-color: maroon;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+form button:hover {
+    transform: scale(1.05);
+}
+
+.myPrd {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.myPrd img {
+    width: 100%;
+    height: 400px;
+}
+
+.myPrd h4 {
+    font-weight: bold;
+}
+
+
+
+footer {
+    color: white;
+    background-color: maroon;
+    height: 80px;
+}
+
+footer p {
+    margin-top: 30px;
+}
+
+footer .social_media {
+    margin-top: 30px;
+}
+
+footer .social_media span {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.myPrd .groupe_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
